@@ -1,0 +1,24 @@
+{
+  "name": "js-basic-sample",
+  "version": "1.0.0",
+  "description": "## development settings 1. install node.js. 1. npm init, then package json is created. 1. install libraries with npm. Please refer to the following ```",
+  "main": "js-basic-class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-Suzaki/js-basic-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y-Suzaki/js-basic-sample/issues"
+  },
+  "homepage": "https://github.com/Y-Suzaki/js-basic-sample#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "browserify": "^16.2.3",
+    "moment": "^2.24.0"
+  }
+}
