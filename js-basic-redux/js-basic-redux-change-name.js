@@ -38,3 +38,6 @@ store.subscribe(() => console.log(store.getState()));
 
 store.dispatch(updateNameAction('tanaka'));
 store.dispatch(updateAgeAction('22'));
+
+// dispatchは戻り値（Actionの内容そのもの）を得ることができる
+console.log(store.dispatch(updateNameAction('hayashi')));
