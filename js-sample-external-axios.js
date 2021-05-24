@@ -20,8 +20,12 @@ async function get(url) {
     try {
         const response = await axios.get(url);
         console.log(response.status);
+        return response
     } catch (e) {
         console.log(e)
     }
 }
 
+get(url).then(
+    response => console.log(response)
+)
