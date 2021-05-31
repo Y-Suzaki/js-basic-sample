@@ -2,7 +2,7 @@
   "name": "js-basic-sample",
   "version": "1.0.0",
   "description": "## development settings 1. install node.js. 1. npm init, then package json is created. 1. install libraries with npm. Please refer to the following ```",
-  "main": "js-basic-class.js",
+  "main": "basic/js-basic-class.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "browserify": "^17.0.0",
+    "lodash": "^4.17.21",
     "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
     "redux": "^4.1.0"
   }
 }
